@@ -22,10 +22,6 @@ btnTask.onclick = function () {
         value2.textContent = inputTasks;
         list.appendChild(value2); 
         window.localStorage.setItem("task",taskArray);
-        window.onload=function(){
- let ccik=window.localStorage.getItem(taskArray)
- console.log(ccik)
-        }
         taskArray.push(inputTasks);
         console.log(taskArray);
         inputTask.value = "";

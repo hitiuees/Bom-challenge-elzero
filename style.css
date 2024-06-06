@@ -1,0 +1,66 @@
+.inputtask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    width: 90%;
+    height: 90px;
+    border-radius: 10px;
+    column-gap: 9px;
+
+}
+input{
+    width: 70%;
+    height: 30%;
+    border-radius: 3px;
+
+}
+.btn{
+    height: 35%; 
+    width: auto;
+    color:white;
+    background-color: red;
+    border-radius: 5px ;
+    border-color: none;
+    cursor: pointer
+    ;
+    font-weight: bold;
+}
+.style{
+    height: 20px;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6px;
+    text-transform: capitalize;
+    
+}
+.tasks{
+  display: flex;
+  gap: 4px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    width: 90%;
+    height: 400px;
+    border-radius: 10px;
+    column-gap: 40px;
+    font-weight: bold;
+
+}
+.remove{
+    display: flex;
+    align-self: flex-start;
+    height: 35%; 
+    width: auto;
+    color:white;
+    background-color: red;
+    border-radius: 5px ;
+    border-color: transparent;
+    cursor: pointer
+    ;
+    font-weight: bold;
+    text-align: center;
+}
+
